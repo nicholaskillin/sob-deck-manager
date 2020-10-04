@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+
+import { Divider, StackView } from '@planning-center/ui-kit'
+
+import Deck from './Deck.js'
+import React from 'react'
+
+// Import Deck Data
+// const forbiddenFortressEncounterDeck = require('./deckData/forbiddenFortress/encounters.json')
+const forbiddenFortressMapDeck = require('./deckData/forbiddenFortress/map.json')
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <StackView spacing={<Divider margin={2} />}>
+        <Deck deck={forbiddenFortressMapDeck} />
+      </StackView>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

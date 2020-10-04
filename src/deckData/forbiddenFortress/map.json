@@ -1,0 +1,70 @@
+{
+  "name": "Map Deck",
+  "game": "Forbidden Fortress",
+  "backImageURL": "/images/forbiddenFortress/mapDeck/Back.png",
+  "cards": [
+    {
+      "name": "The Library"
+    },
+    {
+      "name": "Mid Passage"
+    },
+    {
+      "name": "A Castle Wall"
+    },
+    {
+      "name": "Short Passage"
+    },
+    {
+      "name": "A Castle Wall"
+    },
+    {
+      "name": "The Audience Chamber"
+    },
+    {
+      "name": "Courtyard Stairs"
+    },
+    {
+      "name": "A Dojo"
+    },
+    {
+      "name": "Koi Bridge"
+    },
+    {
+      "name": "Sacred Garden"
+    },
+    {
+      "name": "The Bell Tower"
+    },
+    {
+      "name": "T-Junction Passage"
+    },
+    {
+      "name": "Corner Passage"
+    },
+    {
+      "name": "A Dojo"
+    },
+    {
+      "name": "Burning Room"
+    },
+    {
+      "name": "Cross Passage"
+    },
+    {
+      "name": "The Kitchen"
+    },
+    {
+      "name": "Bath House"
+    },
+    {
+      "name": "Dark Stone Alter"
+    },
+    {
+      "name": "Inner Garden"
+    },
+    {
+      "name": "Cursed Courtyard"
+    }
+  ]
+}
