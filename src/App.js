@@ -6,7 +6,7 @@ import Deck from './Deck.js'
 import React from 'react'
 
 // Import Deck Data
-// const forbiddenFortressEncounterDeck = require('./deckData/forbiddenFortress/encounters.json')
+const forbiddenFortressEncounterDeck = require('./deckData/forbiddenFortress/encounters.json')
 const forbiddenFortressMapDeck = require('./deckData/forbiddenFortress/map.json')
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
     <div className="App">
       <StackView spacing={<Divider margin={2} />}>
         <Deck deck={forbiddenFortressMapDeck} />
+        <Deck deck={forbiddenFortressEncounterDeck} />
       </StackView>
     </div>
   )
