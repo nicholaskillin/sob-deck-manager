@@ -13,5 +13,6 @@ code {
 }
 
 img {
-  width: 200px;
+  max-width: 200px;
+  height: 280px;
 }
