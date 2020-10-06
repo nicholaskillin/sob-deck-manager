@@ -1,7 +1,7 @@
 {
   "name": "Map Deck",
   "game": "Forbidden Fortress",
-  "backImageURL": "/images/forbiddenFortress/mapDeck/Back.png",
+  "backImageURL": "/images/forbiddenFortress/mapDeck/back.png",
   "cards": [
     {
       "name": "The Library"

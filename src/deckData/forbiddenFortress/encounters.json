@@ -1,7 +1,7 @@
 {
   "name": "Encounters Deck",
   "game": "Forbidden Fortress",
-  "backImageURL": "/images/forbiddenFortress/encountersDeck/Back.png",
+  "backImageURL": "/images/forbiddenFortress/encountersDeck/back.png",
   "cards": [
     { "name": "Barred Door" },
     { "name": "Black Water" },
