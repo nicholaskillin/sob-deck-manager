@@ -4,23 +4,12 @@
   "backImageURL": "/images/forbiddenFortress/lootDeck/back.png",
   "cards": [
     { "name": "Blood Money" },
-    { "name": "Chilling Dread" },
     { "name": "Dark Stone Rock" },
     { "name": "Dark Stone Shard" },
-    { "name": "Emerging Darkness" },
     { "name": "Gold Bars" },
-    { "name": "Hideous Discovery" },
-    { "name": "Hideous Discovery" },
-    { "name": "Nothing Here" },
-    { "name": "Nothing Here" },
-    { "name": "Nothing Here" },
     { "name": "Sack of Gold Dust" },
-    { "name": "Small Find" },
-    { "name": "Small Find" },
-    { "name": "Something Shiny" },
     { "name": "This Should Come In Handy" },
     { "name": "This Should Come In Handy" },
-    { "name": "Useful Discovery" },
     { "name": "What's This?!" }
   ]
 }
