@@ -18,6 +18,7 @@ function App() {
         <Deck deck={forbiddenFortressMapDeck} />
         <Deck deck={forbiddenFortressEncounterDeck} />
         <Deck deck={forbiddenFortressArtifactsDeck} />
+        <Deck deck={forbiddenFortressLootDeck} />
       </StackView>
     </div>
   )
