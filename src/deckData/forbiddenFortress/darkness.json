@@ -1,0 +1,23 @@
+{
+  "name": "Darkness Deck",
+  "game": "Forbidden Fortress",
+  "backImageURL": "/images/forbiddenFortress/darknessDeck/back.png",
+  "cards": [
+    { "name": "Cold Vengeance" },
+    { "name": "Creatures of Legend" },
+    { "name": "Creatures of Legend" },
+    { "name": "Dark Frenzy" },
+    { "name": "Dark Laughter" },
+    { "name": "Dark Magik" },
+    { "name": "Forces of Darkness" },
+    { "name": "Horrors Beyond Measure" },
+    { "name": "In Darkness' Shadow" },
+    { "name": "Overpowered" },
+    { "name": "Overpowered" },
+    { "name": "Spirit Swarm" },
+    { "name": "Spirit Swarm" },
+    { "name": "Surrounded" },
+    { "name": "Terrifying to Behold" },
+    { "name": "They're Everywhere!" }
+  ]
+}
