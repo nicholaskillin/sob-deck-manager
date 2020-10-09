@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 
 import _ from 'lodash'
 
-function Deck({ deck }) {
+function Deck({ deck, orientation }) {
   const [activeCard, setActiveCard] = useState()
   const [localDeck, setLocalDeck] = useState(deck.cards)
 
@@ -30,6 +30,7 @@ function Deck({ deck }) {
           {localDeck.length > 0 && (
             <img
               alt={`${deck.game} ${deck.name} Card Back`}
+              className={orientation === 'landscape' ? 'landscape' : ''}
               onClick={drawCard}
               src={deck.backImageURL}
             />
@@ -37,6 +38,7 @@ function Deck({ deck }) {
           {activeCard && (
             <img
               alt={activeCard}
+              className={orientation === 'landscape' ? 'landscape' : ''}
               src={`/images/${_.camelCase(deck.game)}/${_.camelCase(
                 deck.name
               )}/${_.camelCase(activeCard)}.png`}

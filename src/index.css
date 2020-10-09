@@ -16,3 +16,8 @@ img {
   max-width: 200px;
   height: 280px;
 }
+
+.landscape {
+  max-width: 280px;
+  height: 200px;
+}
