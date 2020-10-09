@@ -1,9 +1,8 @@
 import './App.css'
 
-import { Divider, StackView } from '@planning-center/ui-kit'
-
 import Deck from './Deck.js'
 import React from 'react'
+import { WrapView } from '@planning-center/ui-kit'
 
 // Import Deck Data
 let decks = [
@@ -19,9 +18,9 @@ let decks = [
 function App() {
   return (
     <div className="App">
-      <StackView spacing={<Divider margin={2} />}>
+      <WrapView padding={2} spacing={2}>
         {decks.map((deck) => <Deck deck={deck.data} orientation={deck.orientation} />)}
-      </StackView>
+      </WrapView>
     </div>
   )
 }

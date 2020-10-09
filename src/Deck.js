@@ -21,7 +21,7 @@ function Deck({ deck, orientation }) {
   }
 
   return (
-    <>
+    <div className="deck">
       <h2>
         {deck.game} {deck.name}
       </h2>
@@ -60,7 +60,7 @@ function Deck({ deck, orientation }) {
           />
         </StackView>
       </StackView>
-    </>
+    </div>
   )
 }
 
