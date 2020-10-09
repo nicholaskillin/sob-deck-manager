@@ -12,7 +12,8 @@ let decks = [
   {data: require('./deckData/forbiddenFortress/encounters.json'), orientation: 'portrait' },
   {data: require('./deckData/forbiddenFortress/growingDread.json'), orientation: 'landscape' },
   {data: require('./deckData/forbiddenFortress/loot.json'), orientation: 'portrait' },
-  {data: require('./deckData/forbiddenFortress/map.json'), orientation: 'portrait' }
+  {data: require('./deckData/forbiddenFortress/map.json'), orientation: 'portrait' },
+  {data: require('./deckData/forbiddenFortress/threatLow.json'), orientation: 'portrait'}
 ]
 
 function App() {

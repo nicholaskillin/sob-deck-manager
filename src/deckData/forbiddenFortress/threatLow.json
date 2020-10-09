@@ -1,0 +1,17 @@
+{
+  "name": "Threat Deck - Low",
+  "game": "Forbidden Fortress",
+  "backImageURL": "/images/forbiddenFortress/threatDeckLow/back.png",
+  "cards": [
+    { "name": "Acidic Tentacles" },
+    { "name": "Chochinobake Lanterns" },
+    { "name": "Chochinobake Lanterns" },
+    { "name": "Dishonored Dead" },
+    { "name": "Oni" },
+    { "name": "Oni and Acidic Tentacles" },
+    { "name": "Oni and Tengu" },
+    { "name": "Takobake Spearmen" },
+    { "name": "Takobake Spearmen" },
+    { "name": "Tengu" }
+  ]
+}
