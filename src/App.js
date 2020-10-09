@@ -6,21 +6,20 @@ import Deck from './Deck.js'
 import React from 'react'
 
 // Import Deck Data
-const forbiddenFortressArtifactsDeck = require('./deckData/forbiddenFortress/artifacts.json')
-const forbiddenFortressDarknessDeck = require('./deckData/forbiddenFortress/darkness.json')
-const forbiddenFortressEncounterDeck = require('./deckData/forbiddenFortress/encounters.json')
-const forbiddenFortressLootDeck = require('./deckData/forbiddenFortress/loot.json')
-const forbiddenFortressMapDeck = require('./deckData/forbiddenFortress/map.json')
+let decks = [
+  require('./deckData/forbiddenFortress/artifacts.json'),
+  require('./deckData/forbiddenFortress/darkness.json'),
+  require('./deckData/forbiddenFortress/encounters.json'),
+  require('./deckData/forbiddenFortress/growingDread.json'),
+  require('./deckData/forbiddenFortress/loot.json'),
+  require('./deckData/forbiddenFortress/map.json')
+]
 
 function App() {
   return (
     <div className="App">
       <StackView spacing={<Divider margin={2} />}>
-        <Deck deck={forbiddenFortressMapDeck} />
-        <Deck deck={forbiddenFortressEncounterDeck} />
-        <Deck deck={forbiddenFortressArtifactsDeck} />
-        <Deck deck={forbiddenFortressLootDeck} />
-        <Deck deck={forbiddenFortressDarknessDeck} />
+        {decks.map((deck) => <Deck deck={deck} />)}
       </StackView>
     </div>
   )
