@@ -3,17 +3,15 @@
   "game": "Forbidden Fortress",
   "backImageURL": "/images/forbiddenFortress/threatDeckEpic/back.png",
   "cards": [
-    { "name": "2 Medium Threat Cards" },
-    { "name": "Acidic Tentacles and 1 Medium Threat" },
-    { "name": "Chochinobake Lanterns" },
-    { "name": "Chochinobake Lanterns" },
-    { "name": "Dishonored Dead" },
-    { "name": "Harionago Apparition and 1 Medium Threat" },
-    { "name": "Oni" },
-    { "name": "Oni and Dishonored Dead" },
-    { "name": "Takobake Spearman" },
-    { "name": "Takobake Spearman" },
-    { "name": "Takobake Spearman and Chochinobake" },
-    { "name": "Tengu" }
+    { "name": "2 Elite Threat Cards" },
+    { "name": "Harionago and 1 Threat Card" },
+    { "name": "Harionago and 2 Low Threat Cards" },
+    { "name": "Living Statue and 1 Threat Card" },
+    { "name": "Living Statue and 2 Threat Cards" },
+    { "name": "Oni and 2 Threat Cards" },
+    { "name": "Skin Crawlers and 2 Threat Cards" },
+    { "name": "The Fallen Shogun and 1 Threat Card" },
+    { "name": "The Fallen Shogun and 1 Threat Card" },
+    { "name": "The Fallen Shogun and Takobake Spearmen" }
   ]
 }
