@@ -1,0 +1,19 @@
+{
+  "name": "Threat Deck - Medium",
+  "game": "Forbidden Fortress",
+  "backImageURL": "/images/forbiddenFortress/threatDeckMedium/back.png",
+  "cards": [
+    { "name": "2 Low Threat Cards" },
+    { "name": "Acidic Tentacles" },
+    { "name": "Chochinobake Lanterns" },
+    { "name": "Chochinobake Lanterns" },
+    { "name": "Dishonored Dead" },
+    { "name": "Harionago Apparition" },
+    { "name": "Oni" },
+    { "name": "Oni and Dishonored Dead" },
+    { "name": "Takobake Spearman" },
+    { "name": "Takobake Spearman" },
+    { "name": "Takobake Spearman and Chochinobake" },
+    { "name": "Tengu" }
+  ]
+}
