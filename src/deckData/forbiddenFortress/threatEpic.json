@@ -1,0 +1,19 @@
+{
+  "name": "Threat Deck - Epic",
+  "game": "Forbidden Fortress",
+  "backImageURL": "/images/forbiddenFortress/threatDeckEpic/back.png",
+  "cards": [
+    { "name": "2 Medium Threat Cards" },
+    { "name": "Acidic Tentacles and 1 Medium Threat" },
+    { "name": "Chochinobake Lanterns" },
+    { "name": "Chochinobake Lanterns" },
+    { "name": "Dishonored Dead" },
+    { "name": "Harionago Apparition and 1 Medium Threat" },
+    { "name": "Oni" },
+    { "name": "Oni and Dishonored Dead" },
+    { "name": "Takobake Spearman" },
+    { "name": "Takobake Spearman" },
+    { "name": "Takobake Spearman and Chochinobake" },
+    { "name": "Tengu" }
+  ]
+}
