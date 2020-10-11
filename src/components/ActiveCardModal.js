@@ -31,17 +31,3 @@ function activeCardModal({ activeCard, gameName, deckName, onRequestClose, orien
 
 
 export default activeCardModal
-
-{/* <div id="zoomModal" style={style}>
-      <div id="zoomContent">
-        <h2 style={{ color: 'black', textAlign: 'center' }}>
-          {activeCard}
-        </h2>
-        <span className="close" onClick={handleClose}>
-          &times;
-        </span>
-        <div id="used-modifier-cards">
-            <img alt={activeCard} src={activeCard}  />
-        </div>
-      </div>
-    </div> */}
