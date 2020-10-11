@@ -1,8 +1,9 @@
 import './App.css'
 
-import Deck from './Deck.js'
+import { ThemeProvider, WrapView } from '@planning-center/ui-kit'
+
+import Deck from './components/Deck.js'
 import React from 'react'
-import { WrapView } from '@planning-center/ui-kit'
 
 // Import Deck Data
 let decks = [
@@ -18,13 +19,28 @@ let decks = [
   {data: require('./deckData/forbiddenFortress/threatEpic.json'), orientation: 'portrait'}
 ]
 
+const
+ theme = {
+  breakpoints: {
+    phone: 480,
+    tablet: 720,
+    desktop: 960,
+  },
+  colors: {
+    primary: 'red-5',
+    secondary: 'lime',
+  },
+}
+
 function App() {
   return (
-    <div className="App">
-      <WrapView padding={2} spacing={2}>
-        {decks.map((deck) => <Deck deck={deck.data} orientation={deck.orientation} />)}
-      </WrapView>
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+        <WrapView padding={2} spacing={2}>
+          {decks.map((deck) => <Deck deck={deck.data} orientation={deck.orientation} />)}
+        </WrapView>
+      </div>
+    </ThemeProvider>
   )
 }
 

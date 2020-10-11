@@ -21,3 +21,17 @@ img {
   max-width: 280px;
   height: 200px;
 }
+
+.deck {
+  min-width: 415px;
+}
+
+/* Modal */
+.modal {
+  max-width: 450px;
+  height: 630px;
+}
+.modal_landscape {
+  max-width: 630px;
+  height: 450px;
+}

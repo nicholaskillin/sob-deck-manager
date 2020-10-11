@@ -1,11 +1,13 @@
 import { Button, StackView, Text } from '@planning-center/ui-kit'
 import React, { useEffect, useState } from 'react'
 
+import ActiveCardModal from './ActiveCardModal.js'
 import _ from 'lodash'
 
 function Deck({ deck, orientation }) {
   const [activeCard, setActiveCard] = useState()
   const [localDeck, setLocalDeck] = useState(deck.cards)
+  const [displayModal, setDisplayModal] = useState(false)
 
   useEffect(() => {
     setLocalDeck(_.shuffle(localDeck))
@@ -18,6 +20,14 @@ function Deck({ deck, orientation }) {
   function shuffleDeck() {
     setLocalDeck(_.shuffle(deck.cards))
     setActiveCard()
+  }
+
+  function showModal() {
+    setDisplayModal(true)
+  }
+
+  function hideModal() {
+    setDisplayModal(false)
   }
 
   return (
@@ -39,6 +49,7 @@ function Deck({ deck, orientation }) {
             <img
               alt={activeCard}
               className={orientation === 'landscape' ? 'landscape' : ''}
+              onClick={showModal}
               src={`/images/${_.camelCase(deck.game)}/${_.camelCase(
                 deck.name
               )}/${_.camelCase(activeCard)}.png`}
@@ -60,6 +71,14 @@ function Deck({ deck, orientation }) {
           />
         </StackView>
       </StackView>
+      <ActiveCardModal
+        activeCard={activeCard}
+        deckName={deck.name}
+        gameName={deck.game}
+        onRequestClose={hideModal}
+        orientation={orientation}
+        show={displayModal}
+      />
     </div>
   )
 }
