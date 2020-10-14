@@ -1,0 +1,19 @@
+{
+  "name": "Scavenge Deck",
+  "game": "Forbidden Fortress",
+  "backImageURL": "/images/forbiddenFortress/scavengeDeck/back.png",
+  "cards": [
+    { "name": "Chilling Dread" },
+    { "name": "Emerging Darkness" },
+    { "name": "Hideous Discovery" },
+    { "name": "Hideous Discovery" },
+    { "name": "Nothing Here" },
+    { "name": "Nothing Here" },
+    { "name": "Nothing Here" },
+    { "name": "Nothing Here" },
+    { "name": "Small Find - 25" },
+    { "name": "Small Find - 50" },
+    { "name": "Something Shiny" },
+    { "name": "Useful Discovery" }
+  ]
+}
